@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -68,7 +68,6 @@
 				4CF69FEFAC101D11C59B182A /* Pods-PDP_StoryboardContact.debug.xcconfig */,
 				E48B1FE66F54CCE218C09872 /* Pods-PDP_StoryboardContact.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -86,6 +85,53 @@
 				F2C5E61B27C03F4800E9F92E /* NetworkService.swift */,
 			);
 			path = networks;
+			sourceTree = "<group>";
+		};
+		F2E4CBB527C0B4ED006F02EF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F2E4CBB827C0B532006F02EF /* Presenter */,
+				F2F2880027BED5AA001A2401 /* HomeViewController.swift */,
+				F2F2880127BED5AA001A2401 /* HomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F2E4CBB627C0B50C006F02EF /* Edit */ = {
+			isa = PBXGroup;
+			children = (
+				F2E4CBBA27C0B54E006F02EF /* Presenter */,
+			);
+			path = Edit;
+			sourceTree = "<group>";
+		};
+		F2E4CBB727C0B516006F02EF /* Create */ = {
+			isa = PBXGroup;
+			children = (
+				F2E4CBB927C0B547006F02EF /* Presenter */,
+			);
+			path = Create;
+			sourceTree = "<group>";
+		};
+		F2E4CBB827C0B532006F02EF /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		F2E4CBB927C0B547006F02EF /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		F2E4CBBA27C0B54E006F02EF /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 		F2E5BA3127BED312007D63E4 = {
@@ -142,8 +188,9 @@
 			isa = PBXGroup;
 			children = (
 				F2C5E61227C01ECC00E9F92E /* BaseViewController.swift */,
-				F2F2880027BED5AA001A2401 /* HomeViewController.swift */,
-				F2F2880127BED5AA001A2401 /* HomeViewController.xib */,
+				F2E4CBB527C0B4ED006F02EF /* Home */,
+				F2E4CBB727C0B516006F02EF /* Create */,
+				F2E4CBB627C0B50C006F02EF /* Edit */,
 				F2C5E60A27C01D3500E9F92E /* CreateViewController.swift */,
 				F2C5E60B27C01D3500E9F92E /* CreateViewController.xib */,
 				F2C5E60E27C01D4800E9F92E /* EditViewController.swift */,
